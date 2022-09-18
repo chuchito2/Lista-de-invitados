@@ -1,0 +1,40 @@
+<html>
+    <head>
+    <title>
+Lista de Invitados
+    </title>
+    <script src="main.js">
+    </script>
+    </head>
+    <body>
+        <center>
+            <h1>
+                Lista de Invitados
+            </h1>
+            <div>
+                <input type="text" placeholder="Escribe a los invitados" id="nombre">
+                <button onclick="enviar()" id="enviar">Enviar</button>
+                <hr>
+                <div id="mostrar_nombres"></div>
+                <hr>
+                <div id="mostrar"><h1>Lista de Invitados</h1>
+                <button onclick="mostrar()" id="boton_mostrar">
+                Mostrar
+                </button>
+                <h3><p id="p1"></p></h3>
+                </div>
+                <hr>
+                <button onclick="ordenar()" id="ordenar">
+                Lista ordenada
+                </button>
+                <div id="div_ordenado"></div>
+                <hr>
+                <input type="text" placeholder="Buscar Nombre" id="buscar_nombre">
+                <button onclick="buscar()" id="buscar">
+                Buscar
+                </button>
+                <p id="p2"></p>
+            </div>
+        </center>
+    </body>
+</html>
